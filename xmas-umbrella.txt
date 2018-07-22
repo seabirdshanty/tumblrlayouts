@@ -1,0 +1,1395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+                                         
+        .                                 .o8       oooo               
+      .o8                                "888       `888               
+    .o888oo oooo  oooo  ooo. .oo.  .oo.   888oooo.   888  oooo d8b     
+      888   `888  `888  `888P"Y88bP"Y88b  d88' `88b  888  `888""8P     
+      888    888   888   888   888   888  888   888  888   888        
+      888 .  888   888   888   888   888  888   888  888   888    .o. 
+      "888"  `V88V"V8P' o888o o888o o888o `Y8bod8P' o888o d888b   Y8P
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+  
+    <style type="text/css">
+       body {
+            background: #f3f2f5 url('http://static.tumblr.com/rkmxltf/Uhsmefg60/tumblr_md6cbzheyb1qmg8v0.png');
+            background-repeat: repeat;
+            background-attachment:fixed;
+            font-family: verdana;
+        }
+        
+
+        
+        ::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background: #ffffff;
+        opacity:0;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+        background: #ffffff url('http://static.tumblr.com/rkmxltf/Uhsmefg60/tumblr_md6cbzheyb1qmg8v0.png');
+        height: 8px;
+        width: 8px;
+        border-radius: 2px;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -o-border-radius: 2px;
+            -ms-border-radius: 2px;
+        }
+        
+        ::selection {
+        background: #ffffff selection color;
+        color: #ccc1df font color;
+        }
+
+        ::-moz-selection {
+        background: #ffffff selection color;
+        color: #ccc1df font color;
+        }
+
+        ::-webkit-selection {
+        background: #ffffff selection color;
+        color: #ccc1df font color;
+        }
+        
+         small {
+           font-size: 10px !important;
+           text-transform: lowercase;
+        }
+        
+        lowercase {
+           font-size: 10px !important;
+           text-transform: lowercase;
+        }
+        
+        .read_more {
+           text-transform: lowercase;
+           position: relative;
+           top: -3px;
+        }
+    
+        
+        .clear {
+            clear: both;
+            height: 0px;
+            overflow: hidden;
+        }
+        
+        .kenric {
+            color: #ccc1df;
+        }
+        
+        .style {
+            text-shadow: #ff8994 2px 2px;
+        }
+        
+        .kyman {
+            border-style: solid;
+            border-weight: 1px;
+            border-color: #ff8994;                   
+        }
+        
+        
+        
+        .no {
+            font-size: 0px;
+            color: rgba(255,255,255,0);
+            display: none;
+        }
+        
+        
+        .no:hover {
+            font-size: 0px;
+            color: rgba(255,255,255,0);
+            display: none;
+        }
+        
+        
+        a img {
+            border: none;
+        }
+        
+        iframe#tumblr_controls {
+            top: 0px !important;
+            right: 0px !important;
+            height: 23px;
+            position: fixed !important;
+            -webkit-transition: opacity 0.7s linear;
+            opacity: 0.45;
+            -webkit-transition: all 0.9s ease-out;
+            -moz-transition: all 0.9s ease-out;
+            -ms-transition: all 0.9s ease-out;
+            transition: all 0.9s ease-out;
+}
+
+       
+
+        iframe#tumblr_controls:hover {
+            -webkit-transition: opacity 0.7s linear;
+            opacity: 0.9;
+            -webkit-transition: all 0.4s ease-out;
+            -moz-transition: all 0.4s ease-out;
+            -ms-transition: all 0.4s eas-out;
+            transition: all 0.4s ease-out;
+}
+        
+        #wrapper {
+            width: 650px;
+            margin: 0 auto;
+           
+        }
+        
+            
+            
+                #wrapper #title a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+            
+            #wrapper #contentholder2 {
+                width: 414px;
+                float: left;
+            }
+            
+            #wrapper #content .space {
+                margin-top: 35px;
+                position: relative;}
+            
+                #wrapper #content .post {
+                    font-family: verdana;
+                    background: #fff;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -o-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    padding: 7px;
+                    margin-bottom: 25px;
+                    position: relative;
+                    box-shadow:rgba(,0.6) 0px 0px 10px 1px;
+                }
+                    
+        
+                    
+                    
+                    #wrapper #content .post .media {
+                        max-width: 400px;
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                        text-align: center;
+                        margin-bottom: 4px;
+                    }
+                    
+                    #wrapper #content .post .media img {
+                        max-width: 400px;
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px; 
+                    }
+                    
+                    .photoset_photo {
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px; 
+                    }
+                    
+                    .photoset_row {
+                        width: 400px;
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px; 
+                    }
+                    
+                    .photoset {
+                        width: 400px;
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px; 
+                    }
+                    
+                    #wrapper #content .post .quotebg {
+                        font-family: georgia;
+                        font-size: 130px;
+                        color: #9482b3;
+                        opacity: 0.5;
+                        filter: alpha(opacity=50);
+                        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+                        position: absolute;
+                        top: -5px;
+                        left: 10px;
+                    }
+                    
+                    #wrapper #content .post .quote {
+                        color: #605f61;
+                        font-weight: bold;
+                        padding: 20px 20px 5px 20px;
+                    }
+                    
+                    #wrapper #content .post .quote.short {
+                        font-size: 10px;
+                        line-height: 20px;
+                    }
+                    
+                    #wrapper #content .post .quote.medium {
+                        font-size: 10px;
+                        line-height: 20px;
+                    }
+                    
+                    #wrapper #content .post .quote.long {
+                        font-size: 10px;
+                        line-height: 20px;
+                    }
+                                        
+                        #wrapper #content .post .quote_source *:first-child {
+                            margin-top: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote_source *:last-child {
+                            margin-bottom: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote *:first-child {
+                            margin-top: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote *:last-child {
+                            margin-bottom: 0px;
+                        }
+                        
+                    #wrapper #content .post .copy {
+                        color: #605f61;
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        font-size: 10px;
+                        line-height: 15px;
+                        
+                    }
+                        
+                        #wrapper #content .post .copy a {
+                            color: #ccc1df;
+                            text-decoration: none;
+                            font-weight: bold;
+                            -webkit-transition: all 0.2s ease-out;
+                            -moz-transition: all 0.2s ease-out;
+                            transition: all 0.2s ease-out;
+                        }
+                        
+                        #wrapper #content .post .copy a:hover {
+                            color: #9482b3;
+                            text-decoration: none;
+                            font-weight: bold;
+                            -webkit-transition: all 0.2s ease-out;
+                            -moz-transition: all 0.2s ease-out;
+                            transition: all 0.2s ease-out;
+                        }
+                        
+                        #wrapper #content .post .copy p {
+                            margin: 10px 0 0 0;
+                            padding: 0;
+                        }
+                        
+                        #wrapper #content .post .copy pre {
+                            padding: 10px;
+                            background-color: #ffffff;
+                            font: normal 10px Courier, monospace;
+                            overflow: auto;
+                        }
+                        
+                        #wrapper #content .post .copy > p:first-child {
+                            margin-top: 0;
+                        }
+                        
+                        #wrapper #content .post .copy img {
+                            max-width: 100%;
+                        }
+                    
+                    #wrapper #content .post .audio {
+                        background: #ffffff;
+                        float: left;
+                        padding: 4px;
+                        margin-bottom: 7px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                    }
+                                                        
+                        #wrapper #content .post .audio .player {
+                            float: left;
+                        }
+                        
+                            #wrapper #content .post .audio .player .audio_player embed {
+                                border: 1px solid #c8c8c8;
+                            }
+                        
+                        #wrapper #content .post .audio .meta {
+                            padding: 8px 13px;
+                            height: 13px;
+                            float: left;
+                            color: #666;
+                            font-family: verdana;
+                            font-size: 10px;
+                            text-transform: lowercase;
+                        }
+                        
+                            
+                    
+                    #wrapper #content .post .album_art {
+                        text-align: center;
+                    }
+                    
+                    #wrapper #content .post .question {
+                        color: #605f61;
+                        font-size: 10px;
+                        font-weight: normal;
+                        background: #ffffff;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                        border-radius: 8px;
+                        margin: 0 0 7px 0;
+                        padding: 15px 20px;
+                        position: relative;
+                    }
+                    
+                        #wrapper #content .post .question .nipple {
+                            width: 13px;
+                            height: 7px;
+                            font-size: 10px;
+                            background: #ffffff;
+                            color: #605f61;
+                            position: absolute;
+                            bottom: -7px;
+                            left: 30px;
+                        }
+                        
+                    #wrapper #content .post .asker_container {
+                        margin: 0 0 20px 24px;
+                        font-size: 10px;
+                        text-transform: lowercase;
+                    }
+                    
+                        #wrapper #content .post .asker_container img {
+                            margin: 0 12px -7px 0;
+                        }
+                        
+                        #wrapper #content .post .asker_container a.asker {
+                            color: #ccc1df;
+                            text-decoration: none;
+                            font-size:10px;
+                            font-weight: bold;
+                            -webkit-transition: all 0.2s ease-out;
+                            -moz-transition: all 0.2s ease-out;
+                            transition: all 0.2s ease-out;
+                        }
+                    
+                    #wrapper #content .post .asker_container a.asker:hover {
+                            color: #9482b3;
+                            text-decoration: none;
+                            font-weight: bold;
+                            -webkit-transition: all 0.2s ease-out;
+                            -moz-transition: all 0.2s ease-out;
+                            transition: all 0.2s ease-out;
+                        }
+                    
+                    
+                    #wrapper #content .post .title {
+                        color: #ccc1df;
+                        font-size: 13px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        padding: 1px 10px 2px 10px;
+                    }
+                    
+                    #wrapper #content .post img {
+                      max-width: 500px;
+                    }
+                                        
+                    #wrapper #content .post .chat {
+                        background-color: #fff;
+                        border-left: 3px solid #ccc1df;
+                        margin: 10px 10px 0 10px;
+                        font-size: 10px;
+                    }
+                                        
+                        #wrapper #content .post .chat .lines {
+                            margin-left: 1px;
+                        }
+                        
+                            #wrapper #content .post .chat .lines .line {
+                                background-color: #ffffff;
+                                color: #494949;
+                                margin-bottom: 1px;
+                                padding: 3px 5px;
+                            }
+                        
+                            
+                            #wrapper #content .post .chat .lines .line.even {
+                                background-color: #ffffff;
+                            }
+                        
+                        #wrapper #content .post .link {
+                            margin: 1px 0 2px 0;
+                            font-size: 9px;
+                            font-weight:bold;
+                            text-transform: uppercase;
+                            line-height: 25px;
+                        }
+                            
+                            #wrapper #content .post .link a {
+                                background-color: #ccc1df;
+                                color: #ffffff;
+                                padding: 5px 7px;
+                                border-radius: 2px;
+                                    -moz-border-radius: 2px;
+                                    -webkit-border-radius: 2px;
+                                    -o-border-radius: 2px;
+                                    -ms-border-radius: 2px;
+                                text-shadow: #ccc1df 1px 1px;
+                                -webkit-transition: all 0.5s ease-out;
+                                -moz-transition: all 0.5s ease-out;
+                                transition: all 0.5s ease-out;
+                            }
+                            
+                            #wrapper #content .post .link a:hover {
+                                background-color: #9482b3;
+                                color: #ffffff;
+                                text-decoration: none;
+                                -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                            }
+                            
+                            
+                    #wrapper #content .post .footer2 {
+                        color: #ffffff;
+                        background: #ccc1df url('') top left fixed repeat;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                        font-family: verdana;
+                        font-size: 9px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        -webkit-transition: all 0.5s ease-out;
+                        -moz-transition: all 0.5s ease-out;
+                                -o-transition: all 0.5s ease-out;
+                                -ms-transition: all 0.5s ease-out;
+                        transition: all 0.5s ease-out;
+                        padding: 3px 6px;
+                        margin-top: 5px;
+                        text-shadow: #ccc1df 1px 1px;
+                        
+                
+                    }
+                    
+                    #wrapper #content .post .footer2:hover {
+                        color: #ffffff;
+                        background-color: #9482b3;
+                        -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                -o-transition: all 0.2s ease-out;
+                                -ms-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                        
+                    }
+                        
+                        
+                        
+                        #wrapper #content .post .footer2 .tags {
+                            color: #ffffff;
+                            width: 100%;
+                            text-align: left;
+                            
+                        }
+                        
+                        #wrapper #content .post .footer2 .tags:hover {
+                                text-decoration: none;   
+                                color: #ffffff;
+                            }
+                            
+                         #wrapper #content .post .footer2 .tags a {
+                                text-decoration: none;  
+                                color: #ffffff;
+                                -webkit-transition: all 0.3s ease-out;
+                                -moz-transition: all 0.3s ease-out;
+                                -o-transition: all 0.3s ease-out;
+                                -ms-transition: all 0.3s ease-out;
+                                transition: all 0.3s ease-out;
+                            }
+
+                        #wrapper #content .post .footer2 .tags a:hover {
+                                text-decoration: none;   
+                                color: #ccc1df;
+                                -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                -o-transition: all 0.2s ease-out;
+                                -ms-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                            }
+                        
+                        #wrapper #content .post .footer2 .source {
+                            color: #ffffff;
+                            height: 0px;
+                            position: relative;
+                            top: -13px;
+                            text-align: right;
+                            
+                        }
+                        
+                        #wrapper #content .post .footer2 .source:hover {
+                                text-decoration: none;   
+                                color: #ffffff;
+                            }
+                            
+                            #wrapper #content .post .footer2 .source a {
+                                text-decoration: none; 
+                                color: #ffffff;
+                                -webkit-transition: all 0.3s ease-out;
+                                -moz-transition: all 0.3s ease-out;
+                                -o-transition: all 0.3s ease-out;
+                                -ms-transition: all 0.3s ease-out;
+                                transition: all 0.3s ease-out;
+                            }
+
+                        #wrapper #content .post .footer2 .source a:hover {
+                                text-decoration: none;   
+                                color: #ccc1df;
+                                -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                -o-transition: all 0.2s ease-out;
+                                -ms-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                            }
+                    
+                    #wrapper #content .post .footer {
+                        color: #ffffff;
+                        background: #ccc1df url('') top left fixed repeat;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                        font-family: verdana;
+                        font-size: 9px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        
+                        padding: 3px 6px;
+                        margin-top: 5px;
+                        text-shadow: #ccc1df 1px 1px;
+                        
+                        -webkit-transition: all 0.5s ease-out;
+                        -moz-transition: all 0.5s ease-out;
+                        transition: all 0.5s ease-out;
+                
+                    }
+                    
+                    #wrapper #content .post .footer:hover {
+                        color: #ffffff;
+                        -webkit-transition: all 0.2s ease-out;
+                        -moz-transition: all 0.2s ease-out;
+                        transition: all 0.2s ease-out;
+                        
+                    }
+                        
+                        #wrapper #content .post .footer.for_permalink:hover {
+                            color: #ffffff;
+                            background-color: #9482b3;
+                        }
+                        
+                        #wrapper #content .post .footer .date {
+                            color: #ffffff;
+                            width: 66%;
+                            float: left;
+                            
+                        }
+                        
+                        #wrapper #content .post .footer .date:hover {
+                                text-decoration: none;   
+                                color: #ffffff;
+                            }
+                        
+                        #wrapper #content .post .footer .notes {
+                            color: #ffffff;
+                            width: 33%;
+                            float: right;
+                            text-align: right;
+                            
+                        }
+                        
+                        #wrapper #content .post .footer .notes:hover {
+                                text-decoration: none;   
+                                color: #ffffff;
+                            }
+                            
+                            #wrapper #content .post .footer .notes a {
+                                text-decoration: none;
+                                color: #ffffff;
+                            }
+
+                        #wrapper #content .post .footer .notes a:hover {
+                                text-decoration: none;   
+                                color: #ffffff;
+                            }
+                            
+                            
+                        
+                        #wrapper #content .post a {
+                            color: #ccc1df;
+                            text-decoration: none;
+                        }
+                        
+                        #wrapper #content .post a:hover {
+                            color: #9482b3;
+                            text-decoration: none;
+                        }
+                        
+                            #wrapper #content .post .copy blockquote {
+                                margin: 10px 0px 10px 10px;
+                                padding-left: 15px;
+                                border-left: solid 3px #ccc1df;
+                            }
+                            
+                                
+                        
+                      
+                        
+                        
+                            
+                            
+                            
+                            .arrows {
+                            position: relative;
+                            top: 0px;
+                            height: 0px;
+                            }
+                            
+                            .arrowsholder {
+                            position: relative;
+                            padding: 10px;
+                            top: 0px;
+                            }
+                            
+                            
+                            .arrowsholder a {
+                                font-size: 20px;
+                                font-weight: bold;
+                                padding-left: 0px;
+                                padding-right: 0px;
+                                color: #9482b3;
+                                text-decoration: none;
+                                -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                            }
+                            
+                            .arrowsholder a:hover {
+                                color: #ccc1df;
+                                -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                            }
+                            
+                            
+                        
+                            
+                                    #wrapper #content .post .notecontainer a {
+                                        color: #ccc1df;
+                                        text-decoration: none;
+                                        font-weight: bold;
+                                    }
+                                    
+                                    #wrapper #content .post .notecontainer ol.notes {
+                                        padding: 0px 0 10px 0;
+                                        list-style-type: none;
+                                        font-size: 9px;
+                                    }
+                                    
+                                        #wrapper #content .post .notecontainer ol.notes li.note {
+                                            padding: 10px 10px 0 10px;
+                                        }
+                                        
+                                            #wrapper #content .post .notecontainer ol.notes li.note img.avatar {
+                                                vertical-align: -4px;
+                                                margin-right: 10px;
+                                                width: 16px;
+                                                height: 16px;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note span.action {
+                                                font-weight: normal;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note .answer_content {
+                                                font-weight: normal;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note blockquote {
+                                                border-left: 2px solid #666;
+                                                padding: 4px 10px;
+                                                margin: 10px 0px 0px 25px;
+                                            }
+                                            
+                                                #wrapper #content .post .notecontainer ol.notes li.note blockquote a {
+                                                    text-decoration: none;
+                                                }
+                
+               
+            
+            #wrapper #sidebar {
+                width: 175px;
+                top: 0px;
+                margin-left: 0px;
+                 margin-top: 300px;
+                position: relative;
+                float: left;
+                color: #605f61;
+                font-family: verdana;
+                
+            }
+            
+                #wrapper #sidebar a {
+                    color: #ccc1df;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                
+                #wrapper #sidebar a:hover {
+                    color: #9482b3;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                
+                #wrapper #sidebar #top {
+                    position:fixed !important;
+                    width: 175px;
+                    background: #fff;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    box-shadow:rgba(,0.6) 0px 0px 10px 1px;
+                    
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -o-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    
+                }
+                    
+                    
+                    
+                
+                    #wrapper #sidebar #top #avatar {
+                        padding: 0 0 0 0px;
+                        position: relative;
+                        top: -110px;
+                        left: -px;
+                        height: 0px;
+                    }
+                    
+                   
+                 
+                 
+                        
+                        
+                    #wrapper #sidebar #top #description {
+                        font-size: 10px;
+                        position: relative;
+                        text-align: center;
+                        padding-bottom: 3px;
+                        padding-top: 10px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        
+                
+                    
+                    }
+                    
+                
+                    
+                    }
+                    
+                    #wrapper #sidebar #top #description a {
+                        color: #ccc1df;
+                        text-decoration: none;
+                        }
+                        
+                        
+                        
+                    #wrapper #sidebar #top #description a:hover {
+                        color: #9482b3;
+                        text-decoration: none;
+                        }
+                        
+                        
+                    
+               #wrapper #sidebar2 {
+                width: 175px;
+                top: 0px;
+                margin-left: 0px;
+                 margin-top: 300px;
+                position: relative;
+                float: right;
+                color: #605f61;
+                font-family: verdana;
+                
+            }
+            
+                #wrapper #sidebar2 a {
+                    color: #ccc1df;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                
+                #wrapper #sidebar2 a:hover {
+                    color: #9482b3;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                
+                #wrapper #sidebar2 #top {
+                    position:fixed !important;
+                    width: 175px;
+                    background: #fff;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    box-shadow:rgba(,0.6) 0px 0px 10px 1px;
+                    
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -o-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    
+                }
+                    
+                    
+                    
+                
+                    #wrapper #sidebar2 #top #avatar {
+                        padding: 0 0 0 0px;
+                        position: relative;
+                        top: -110px;
+                        left: -px;
+                        height: 0px;
+                    }
+                    
+                    
+
+                 
+                 
+                        
+                        
+                    #wrapper #sidebar2 #top #description {
+                        font-size: 10px;
+                        position: relative;
+                        text-align: center;
+                        padding-bottom: 3px;
+                        padding-top: 10px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        
+                
+                    
+                    }
+                    
+                
+                    
+                    }
+                    
+                    #wrapper #sidebar2 #top #description a {
+                        color: #ccc1df;
+                        text-decoration: none;
+                        }
+                        
+                        
+                        
+                    #wrapper #sidebar2 #top #description a:hover {
+                        color: #9482b3;
+                        text-decoration: none;
+                        }     
+   
+   @font-face {
+font-family: "dawningofanewday";
+src: url('http://static.tumblr.com/jtqlgf2/SeUm2ds6e/dawningofanewday.ttf');} 
+
+   
+ h1 {
+    z-index:9999;
+    color:#9482b3;
+    margin-bottom: -15px;
+     font-family: "dawningofanewday";
+     font-weight:normal;
+    text-transform: lowercase; 
+    font-size: 44px !important;
+    width: 414px;
+    
+    }
+
+
+    
+    </style>
+    <!--[if lt IE 7.]>
+        <style type="text/css">
+            #wrapper #sidebar #bottom {
+                background: transparent;
+            }
+            
+            #wrapper #sidebar #top #avatar {
+                background: none;
+            }
+            
+            #wrapper #sidebar #top #avatar img {
+                border: 5px solid #f1f1f1;
+            }
+            
+            #wrapper #sidebar #top .heading#followontumblr {
+                background-image: none;
+                text-indent: 0;
+            }
+        
+            #wrapper #sidebar #top .heading#twitter {
+                background-image: none;
+            }
+        
+            #wrapper #sidebar #top .heading#following {
+                background-image: none;
+            }
+
+            #wrapper #content .post .audio .player {
+                float: none;
+            }
+            
+            #wrapper #content .post .audio .meta {
+                display: none;
+                float: none;
+            }
+        </style>
+    <![endif]-->
+    
+    <!--[if lt IE 8.]>
+        <style type="text/css">
+            #wrapper #content .bottom {
+                background: transparent;
+            }
+            
+            #wrapper #content .post .footer {
+                background: transparent;
+                color: #000;
+            }
+            
+            #wrapper #content .post .audio {
+                float: none;
+                background: transparent;
+            }
+            
+            #wrapper #content .post .notecontainer .notes {
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    <![endif]-->
+    <style type="text/css">body, div, table, img {-moz-border-radius: 15px !important;
+border-radius: 15px !important; 
+};
+
+
+/*
+                                                                                                   
+                                                                       ,,                                                              
+                                                                     `7MM                                                              
+                                                                       MM                                                              
+`7Mb,od8 `7M'   `MF',6"Yb.  `7MMpMMMb.       ,6"Yb.  `7MMpMMMb.   ,M""bMM                                                              
+  MM' "'   VA   ,V 8)   MM    MM    MM      8)   MM    MM    MM ,AP    MM                                                              
+  MM        VA ,V   ,pm9MM    MM    MM       ,pm9MM    MM    MM 8MI    MM                                                              
+  MM         VVV   8M   MM    MM    MM      8M   MM    MM    MM `Mb    MM                                                              
+.JMML.       ,V    `Moo9^Yo..JMML  JMML.    `Moo9^Yo..JMML  JMML.`Wbmd"MML.                                                            
+            ,V                                                                                                                         
+         OOb"                                                                                                                          
+                                                                                                                                       
+   ,,                                                                         ,,                                                       
+   db                                                                       `7MM                                                       
+                                                                              MM                                                       
+ `7MM  ,pW"Wq.       ,6"Yb.  `7Mb,od8 .gP"Ya      ,pP"Ybd `7MM  `7MM  ,p6"bo  MMpMMMb.                                                 
+   MM 6W'   `Wb     8)   MM    MM' "',M'   Yb     8I   `"   MM    MM 6M'  OO  MM    MM                                                 
+   MM 8M     M8      ,pm9MM    MM    8M""""""     `YMMMa.   MM    MM 8M       MM    MM                                                 
+   MM YA.   ,A9     8M   MM    MM    YM.    ,     L.   I8   MM    MM YM.    , MM    MM                                                 
+   MM  `Ybmd9'      `Moo9^Yo..JMML.   `Mbmmd'     M9mmmP'   `Mbod"YML.YMbmd'.JMML  JMML.                                               
+QO MP                                                                                                                                  
+`bmP                                                                                                                                   
+                                                                                                                                       
+ ,,        ,,                                                            ,,    ,,                                                      
+*MM        db               `7MM                                         db    db                                                      
+ MM                           MM                                                                                                       
+ MM,dMMb.`7MM  .P"Ybmmm       MM  ,MP' ,6"Yb.`7M'    ,A    `MF',6"Yb.  `7MM  `7MM  ,pP"Ybd                                             
+ MM    `Mb MM :MI  I8         MM ;Y   8)   MM  VA   ,VAA   ,V 8)   MM    MM    MM  8I   `"                                             
+ MM     M8 MM  WmmmP"         MM;Mm    ,pm9MM   VA ,V  VA ,V   ,pm9MM    MM    MM  `YMMMa.                                             
+ MM.   ,M9 MM 8M              MM `Mb. 8M   MM    VVV    VVV   8M   MM    MM    MM  L.   I8                                             
+ P^YbmdP'.JMML.YMMMMMb      .JMML. YA.`Moo9^Yo.   W      W    `Moo9^Yo..JMML..JMML.M9mmmP'                                             
+              6'     dP                                                                                                                
+              Ybmmmd'                                                                                                                  
+                                                                                                                                       
+  ,,                                                                                                                                   
+  db           `7MMF'     A     `7MF'`7MM"""YMM        db      `7MM"""Mq.                                                              
+                 `MA     ,MA     ,V    MM    `7       ;MM:       MM   `MM.                                                             
+`7MM      ,pP"Ybd VM:   ,VVM:   ,V     MM   d        ,V^MM.      MM   ,M9                                                              
+  MM      8I   `"  MM.  M' MM.  M'     MMmmMM       ,M  `MM      MMmmdM9                                                               
+  MM      `YMMMa.  `MM A'  `MM A'      MM   Y  ,    AbmmmqMA     MM  YM.                                                               
+  MM      L.   I8   :MM;    :MM;       MM     ,M   A'     VML    MM   `Mb.                                                             
+.JMML.    M9mmmP'    VF      VF      .JMMmmmmMMM .AMA.   .AMMA..JMML. .JMM.                                                            
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+MMP""MM""YMM   .g8""8q.         .g8"""bgd    .g8""8q. `7MM"""Yb.     .g8""8q. `7MMF' `YMM'       db                                    
+P'   MM   `7 .dP'    `YM.     .dP'     `M  .dP'    `YM. MM    `Yb. .dP'    `YM. MM   .M'        ;MM:                                   
+     MM      dM'      `MM     dM'       `  dM'      `MM MM     `Mb dM'      `MM MM .d"         ,V^MM.                                  
+     MM      MM        MM     MM           MM        MM MM      MM MM        MM MMMMM.        ,M  `MM                                  
+     MM      MM.      ,MP     MM.    `7MMF'MM.      ,MP MM     ,MP MM.      ,MP MM  VMA       AbmmmqMA                                 
+     MM      `Mb.    ,dP'     `Mb.     MM  `Mb.    ,dP' MM    ,dP' `Mb.    ,dP' MM   `MM.    A'     VML                                
+   .JMML.      `"bmmd"'         `"bmmmdPY    `"bmmd"' .JMMmmmdP'     `"bmmd"' .JMML.   MMb..AMA.   .AMMA.                              
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+MMP""MM""YMM `7MMF'  `7MMF'`7MM"""YMM `YMM'   `MM'          db      `7MM"""Mq.  `7MM"""YMM                                             
+P'   MM   `7   MM      MM    MM    `7   VMA   ,V           ;MM:       MM   `MM.   MM    `7                                             
+     MM        MM      MM    MM   d      VMA ,V           ,V^MM.      MM   ,M9    MM   d                                               
+     MM        MMmmmmmmMM    MMmmMM       VMMP           ,M  `MM      MMmmdM9     MMmmMM                                               
+     MM        MM      MM    MM   Y  ,     MM            AbmmmqMA     MM  YM.     MM   Y  ,                                            
+     MM        MM      MM    MM     ,M     MM           A'     VML    MM   `Mb.   MM     ,M                                            
+   .JMML.    .JMML.  .JMML..JMMmmmmMMM   .JMML.       .AMA.   .AMMA..JMML. .JMM..JMMmmmmMMM                                            
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+   `7MMF'`7MMF'   `7MF'.M"""bgd MMP""MM""YMM                                                                                           
+     MM    MM       M ,MI    "Y P'   MM   `7                                                                                           
+     MM    MM       M `MMb.          MM                                                                                                
+     MM    MM       M   `YMMNq.      MM                                                                                                
+     MM    MM       M .     `MM      MM                                                                                                
+(O)  MM    YM.     ,M Mb     dM      MM                                                                                                
+ Ymmm9      `bmmmmd"' P"Ybmmd"     .JMML.                                                                                              
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                 AW                                                                             AW     
+MMP""MM""YMM `7MMF'  `7MMF'`7MM"""YMM           ,M'`7MM"""Yp, `7MMF' .g8"""bgd    .g8"""bgd `7MM"""YMM   .M"""bgd MMP""MM""YMM ,M'     
+P'   MM   `7   MM      MM    MM    `7           MV   MM    Yb   MM .dP'     `M  .dP'     `M   MM    `7  ,MI    "Y P'   MM   `7 MV      
+     MM        MM      MM    MM   d            AW    MM    dP   MM dM'       `  dM'       `   MM   d    `MMb.          MM     AW       
+     MM        MMmmmmmmMM    MMmmMM           ,M'    MM"""bg.   MM MM           MM            MMmmMM      `YMMNq.      MM    ,M'       
+     MM        MM      MM    MM   Y  ,        MV     MM    `Y   MM MM.    `7MMF'MM.    `7MMF' MM   Y  , .     `MM      MM    MV        
+     MM        MM      MM    MM     ,M       AW      MM    ,9   MM `Mb.     MM  `Mb.     MM   MM     ,M Mb     dM      MM   AW         
+   .JMML.    .JMML.  .JMML..JMMmmmmMMM      ,M'    .JMMmmmd9  .JMML. `"bmmmdPY    `"bmmmdPY .JMMmmmmMMM P"Ybmmd"     .JMML.,M'         
+                                            MV                                                                             MV          
+                                           AW                                                                             AW           
+                                                                                                                                       
+                                                                                                                                       
+  .g8"""bgd `7MMF'   `7MF'MMP""MM""YMM `7MM"""YMM   .M"""bgd                                                                           
+.dP'     `M   MM       M  P'   MM   `7   MM    `7  ,MI    "Y                                                                           
+dM'       `   MM       M       MM        MM   d    `MMb.                                                                               
+MM            MM       M       MM        MMmmMM      `YMMNq.                                                                           
+MM.           MM       M       MM        MM   Y  , .     `MM                                                                           
+`Mb.     ,'   YM.     ,M       MM        MM     ,M Mb     dM                                                                           
+  `"bmmmd'     `bmmmmd"'     .JMML.    .JMMmmmmMMM P"Ybmmd"                                                                            
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+  .g8""8q. `7MMF' `YMM',M"""b.                                                                                                         
+.dP'    `YM. MM   .M'  89'  `Mg                                                                                                        
+dM'      `MM MM .d"         ,M9                                                                                                        
+MM        MM MMMMM.      mMMY'                                                                                                         
+MM.      ,MP MM  VMA     MM                                                                                                            
+`Mb.    ,dP' MM   `MM.   ,,                                                                                                            
+  `"bmmd"' .JMML.   MMb. db                                                                                                            
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+  .g8""8q. `7MMF' `YMM'                                                                                                                
+.dP'    `YM. MM   .M'                                                                                                                  
+dM'      `MM MM .d"                                                                                                                    
+MM        MM MMMMM.                                                                                                                    
+MM.      ,MP MM  VMA                                                                                                                   
+`Mb.    ,dP' MM   `MM.  ,,                                                                                                             
+  `"bmmd"' .JMML.   MMb.db                                                                                                             
+                                                                                                                                       
+                                                                                                                                       
+
+*/
+
+
+</style>
+    
+   
+
+
+
+
+</head>
+<body>
+
+
+ 
+
+</div>
+
+    <div id="wrapper">
+ 
+
+        
+        
+        <div id="contentholder2">
+        
+        
+        
+        <div id="content">      <div class=space></div>  <h1>{title}</h1>
+
+        
+                  <div id="FUCKINCUTE" style=" border: 10px white solid; background: white; max-height: 550px; width: 450; overflow-y: auto; box-shadow:rgba(255,255,255,0.6) 0px 0px 10px 1px;">
+            
+          
+            
+
+                      {block:Posts}
+                <div class="post">
+                    
+                    {block:Photo}
+                        <div class="media">{LinkOpenTag}<img width="400px" src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>{LinkCloseTag}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                        {block:PermalinkPage}<a class="no" href="{ReblogParentURL}">{ReblogParentName}</a>{block:ContentSource}<a class="no" 
+
+href="{SourceURL}">{SourceTitle}</a>{/block:ContentSource}{/block:PermalinkPage}
+                    {/block:Photo}
+                    
+                    {block:Photoset}
+                        <div class="media">{LinkOpenTag}{Photoset-400}{LinkCloseTag}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                        {block:PermalinkPage}<a class="no" href="{ReblogParentURL}">{ReblogParentName}</a>{/block:PermalinkPage}
+                    {/block:Photoset}
+                    
+                    {block:Video}
+                        <div class="media">{Video-400}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                    {/block:Video}
+                    
+                    {block:Audio}
+                        
+                        {block:AudioEmbed}
+                            {AudioEmbed}
+                        {/block:AudioEmbed}
+                        
+                        {block:AudioPlayer}
+                            
+                                {block:AlbumArt}
+                                    <div class="media">
+                                        <img src="{AlbumArtURL}" width="400px" alt="{block:Artist}{Artist}{/block:Artist}{block:TrackName} - 
+
+{TrackName}{/block:TrackName}"  />
+                                    </div>
+                                {/block:AlbumArt}
+                            
+                        
+                            <div class="audio">
+                                <div class="player">{AudioPlayerWhite}</div>
+                                <div class="meta">{block:PlayCount}{PlayCountWithLabel}!{/block:PlayCount}{block:ExternalAudio}<span 
+
+class="download_external_audio"> <a href="{ExternalAudioURL}">{lang:Download}</a></span>{/block:ExternalAudio}</div>
+                                <div class="clear"></div>
+                            </div>
+                        {/block:AudioPlayer}
+                        
+                        <div class="clear"></div>
+                        
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                        
+                    {/block:Audio}
+                    
+                    {block:Quote}
+                        <div class="quotebg">“</div>
+                        <div class="quote {Length}">{Quote}</div>
+                        <div class="copy">
+                            {block:Source}
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td valign="top" style="width:20px;">&mdash;</td>
+                                        <td valign="top" class="quote_source">
+                                            {Source}
+                                        </td>
+                                    </tr>
+                                </table>
+                            {/block:Source}
+                        </div>
+                    {/block:Quote}
+                        
+                    {block:Text}
+                        {block:Title}<div class="title">{Title}</div>{/block:Title}
+                        <div class="copy">{Body}</div>
+                    {/block:Text}
+                    
+                    {block:Answer}
+                        <div class="question">
+                            <div class="nipple"></div>
+                            <b>{Question}</b>
+                        </div>
+                        <div class="asker_container"><img src="{AskerPortraitURL-24}">{Asker}</div>
+                        <div class="copy">{Answer}</div>
+                    {/block:Answer}
+                    
+                    {block:Chat}
+                        {block:Title}<div class="title">{Title}</div>{/block:Title}
+                        <div class="chat">
+                            <div class="lines">
+                                {block:Lines}
+                                    <div class="line {Alt}">{block:Label}<strong>{Label}</strong>{/block:Label} {Line}</div>
+                                {/block:Lines}
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div style="height:10px;"></div>
+                    {/block:Chat}
+                    
+                    {block:Link}
+                        <div class="link"><a href="{URL}" {Target}>{Name} &raquo;</a></div>
+                        {block:Description}<div class="copy">{Description}</div>{/block:Description}
+                    {/block:Link}
+                    
+                    {block:Date}
+                        <a href="{Permalink}">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    {block:Reblog}
+                                        {TimeAgo}
+                                    {/block:Reblog}
+                                    
+                                    {block:NotReblog}
+                                        {TimeAgo}
+                                    {/block:NotReblog}
+                                </div>
+                                <div class="notes">{block:NoteCount}{NoteCountWithLabel}{/block:NoteCount} </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    {/block:Date}
+                    
+                    
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    
+                    {block:PermalinkPage}{block:Date}<div class="footer2">
+                        
+                        <div class="tags">{block:HasTags}{block:Tags}<a href="{TagURL}">#{Tag}</a> {/block:Tags}{/block:HasTags}  </div>
+
+<div class="source">{block:ContentSource}<a href="{SourceURL}" title="source">©</a>{/block:ContentSource}</div>
+                   
+                   </div>{/block:Date}{/block:PermalinkPage}
+                  
+                    
+                    {block:PostNotes}<div class="notecontainer">{PostNotes}</div>{/block:PostNotes}
+                    
+            
+                    
+                </div>
+
+                
+            {/block:Posts}
+            
+            
+             
+
+
+                    
+            {block:Pagination}<center><font class="arrows"><font class="arrowsholder">{block:PreviousPage}<a style="text-align:left" href="{PreviousPage}">
+            ← 
+                
+            </a>                        {/block:PreviousPage}{block:NextPage}<a style="text-align:right" href="{NextPage}">
+             →
+                
+            </a>{/block:NextPage}</font></font></center><br><br>{/block:Pagination}
+       
+                    
+                </div>
+                
+            
+            
+
+            
+            
+            <div style="font-size="30;> 
+            
+
+            
+        </div></div></div>
+
+            
+   
+        
+        
+        
+        
+        <div  id="sidebar2">
+            <div id="top">
+                
+                <div id="description" style="box-shadow:rgba(255,255,255,0.6) 0px 0px 10px 1px;"><div id="avatar"><a href="/"><img class="fuck_is_messed_up_but_i_ship_it" src="http://static.tumblr.com/rkmxltf/x8Omdznol/tumblr_mc0te06cs31rufgka.gif"></a></div><select onChange="location.href=this.options[this.selectedIndex].value;" style="font-family:verdana; font-size:10px; width: 150px;">
+    <option value="/">navigation</option>
+    <option value="/">home</option>
+    <option value="/ask">ask</option>
+    <option value="/submit">submit</option>
+    <option value="/hoodis">about</option>
+     <option value="/dokis">dokis</option>
+    
+    
+    <option value="http://kingies.tumblr.com/tagged/themes">redux edit by kingies</option>
+    </select>
+<p>
+{description}
+          
+
+<style> select { font-family:lucida console;color:#ffffff;background:#ccc1df;width:180px;font-size:11px;letter-spacing:1px;border:10px solid #ccc1df;-moz-border-radius: 5px;border-radius: 
+5px; z-index:5;} </style></p></div>
+                   
+                 
+                 
+            
+        
+                
+                </div>
+                
+                 
+                </div></div>
+                
+                
+               
+               
+
+
+</body>
+</html>
