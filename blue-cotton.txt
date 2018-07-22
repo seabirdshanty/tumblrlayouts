@@ -1,0 +1,349 @@
+<html>
+    <head>
+
+
+        <title>{Title}</title>
+        <tdnk rel="shortcut icon" href="{Favicon}">
+        <tdnk rel="alternate" type="apptdcation/rss+xml" href="{RSS}">
+        {block:Description}
+            <meta name="description" content="{MetaDescription}" />
+        {/block:Description}
+
+<style>
+@font-face {
+font-family: "dawningofanewday";
+src: url('http://static.tumblr.com/jtqlgf2/SeUm2ds6e/dawningofanewday.ttf');} 
+
+body {
+    background-image: url('http://static.tumblr.com/b0303623b1d8d548f3c27552eef3add1/sehd4wx/JfBmh8a2k/tumblr_static_tumblr_mcai7nrkfx1qid2nsw.png'); 
+background-attachment:fixed; 
+color: #636264;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+background-color: transparent;
+height: 30px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background: #8ac1e9 url('http://static.tumblr.com/b0303623b1d8d548f3c27552eef3add1/sehd4wx/JfBmh8a2k/tumblr_static_tumblr_mcai7nrkfx1qid2nsw.png') top left fixed repeat;
+}
+
+::-webkit-scrollbar {
+height: 30px;
+width: 7px;
+background-color: white;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+
+
+post{
+border: 1px solid;
+width:450px;
+color: #50697a;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+h1 {
+    z-index:9999;
+    color:#50697a;
+    margin-bottom: -15px;
+     font-family: "dawningofanewday";
+     font-weight:normal;
+    text-transform: lowercase; 
+    font-size: 44px !important;
+    
+    }
+
+a:link {color:#c7e6f5; text-decoration:none;} 
+a:visited {color: gray; text-decoration: line-through;}  
+a:hover {color:#c7e6f5; text-decoration: line-through;} 
+a:active {color:#c7e6f5; text-decoration:none;} 
+
+#posts {
+text-align: justify;
+width:450px;
+font-size:10px;
+font-family: verdana;
+}
+
+img {
+    max-width: 450px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+select {
+    /* position: fixed; 
+    bottom: 0px; 
+    left: 0px; */
+    font-family:verdana;
+    color:#ffffff;
+    background:#c7e6f5;
+    width:550px;
+    margin-top: -10px;
+    font-size:10px;
+    letter-spacing:3px;
+    border:10px solid #c7e6f5;
+    }
+    
+ body, div, table, tr, td, img, p, ol, li { list-style-type: square; } 
+ OL, LI { text-align: left; }
+ 
+#container {
+    padding-top: 5%;
+    margin-top: -110px;
+}
+
+#containerr {
+    background: #fff;
+    padding: 10px;
+    border: 10px solid white;
+    width: 500px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    
+}
+
+
+
+h3 a{
+    display:block;
+    width:375px;
+    font-family: verdana;
+    text-transform: lowercase;
+    color:#ffffff !important;
+    border-radius:3px;
+    text-align:left;
+    margin-bottom:1px;
+    font-size:15px;
+    height:17px;
+    padding-bottom:1px;
+    letter-spacing:0px;
+    text-decoration:none;
+    padding-left:5px;
+    background-color:#c7e6f5;
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;}
+
+h3 a:hover{
+    color:#ffffff;
+    margin-left:-10px;
+    width:385px;
+    letter-spacing:1px;
+    background-color:#636264;}
+
+#description {
+    background-color: #c7e6f5;
+    color: #fff;
+    font-family: verdana;
+    letter-spacing:3px;
+    font-size: 10px;
+    margin-top: -15px;
+    border: 5px solid #c7e6f5;
+    width:450px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+margin-top: 70px;
+}
+
+#ask {
+    background-color: #c7e6f5;
+    color: #fff;
+    font-family: verdana;
+    letter-spacing:3px;
+    font-size: 10px;
+    border: 5px solid #c7e6f5;
+    width:450px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#ask a:link {color:#ffffff;} 
+#ask a:visited {color:#ffffff;}  
+#ask a:hover {color:#ffffff;} 
+#ask a:active {color:#ffffff;} 
+
+#description a:link {color:#ffffff;} 
+#description a:visited {color:#ffffff;}  
+#description a:hover {color:#ffffff;} 
+#description a:active {color:#ffffff;} 
+
+
+iframe#tumblr_controls {
+z-index:999  !important;
+position:fixed !important;
+bottom:0px !important;
+top: 95% !important;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid  #c7e6f5;
+text-align: right !important;
+}            	
+
+h2 { 
+   font-size: 18pt;
+   line-height:70%;
+         font-weight:normal;
+    text-transform: lowercase; 
+         font-family: "dawningofanewday";
+}
+
+#circle {
+	width: 40px;
+	height: 40px;
+	background: #c7e6f5;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+    
+
+</style>
+
+		
+    </head>
+    <body>
+
+<center>{block:Description}
+           <p> <div id="description">{Description}</div><div id="triangle-down"></div>
+        {/block:Description}
+<div id="container"> 
+        <h1> {Title}</h1>
+<center>
+<div id="containerr">
+               
+
+        <div id="posts" style="text-align: top;">
+            {block:Posts}
+
+                {block:Text}
+                    <div class="post">
+                        {block:Title}
+                            <center><h3><a href="{Permalink}">{Title}</a></h3></center>{/block:Title}
+
+                        {Body}
+                    </div>
+                {/block:Text}
+
+                {block:Photo}
+                    <div class="post">
+                        <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+
+                    </div>
+                {/block:Photo}
+
+                {block:Photoset}
+                    <div class="post">
+                        <center>{Photoset-400}</center>
+                    </div>
+                {/block:Photoset}
+
+                {block:Quote}
+                    <div class="post">
+                        <h2><Big>"</big>{Quote}<big>"</big></h2>
+                    </div>
+                {/block:Quote}
+
+                {block:link}
+                    <div class="post">
+                        <center><h3><a href="{URL}" class="link" {Target}>→ {Name}</a></h3></center>
+
+                    </div>
+                {/block:link}
+
+                {block:Chat}
+                    <div class="post">
+                        {block:Title}
+                            <h3><a href="{Permalink}">{Title}</a></h3>
+                        {/block:Title}
+
+                        <ul class="chat">
+
+{block:Lines}
+<div class="line {Alt}">{block:Label}<strong>{Label}</strong>{/block:Label} {Line}
+{/block:Lines}
+</ul>
+
+                                
+
+                    </div>
+                {/block:Chat}
+
+                {block:Video}
+                    <div class="post">
+                        {Video-500}
+                    </div>
+                {/block:Video}
+
+                {block:Audio}
+                    <div class="post">
+                        <center>{AudioPlayerWhite}</center>
+                    </div>
+                {/block:Audio}
+                
+                {block:Answer}<center>
+<div id="ask">{Asker} questioned: {Question}</div><div id="triangle-down"></div></cenetr>
+
+
+<div class="copy">{Answer}</div>
+{/block:Answer}
+                
+                <p><center> <a href="{Permalink}"><img style="width: 221 !important; height: 3px !important;" src="http://media.tumblr.com/0e56a3cffbb8df0d0c7a56fec8707cbe/tumblr_inline_mhayg5xsyb1qz4rgp.gif" title="">
+                </a>            <br><a href="{ReblogURL}" target="_blank"><img src="http://media.tumblr.com/13e1b56bb63c4c267fa7823e3ee33e3f/tumblr_inline_mhb05csHgF1qz4rgp.gif"></a><br></center></p>
+                
+                
+
+<div class="notecontainer">{PostNotes}</div>{/block:PostNotes}
+                
+            {/block:Posts}
+        </div>
+
+</div>
+
+       
+
+
+
+<select name="nav" onChange="location.href=this.options[this.selectedIndex].value;">
+<option style="color: #c7e6f5"'>navigate the blog</option>
+<option value="/">? return home</option>
+<option value="/ask">? send a messege</option>
+<option value="/submit">? submit a post</option>
+<option value="/archive">? look into the past</option>
+<option value="/random">? veiw a random post</option>
+<option value="http://kawoshinalpacas.tumblr.com">? credit</option>
+       <option value="#"></option>
+            {block:PreviousPage}
+               <option value="{PreviousPage}">&#171; roll back</option>
+            {/block:PreviousPage}
+            
+{block:NextPage}
+<option value="{NextPage}">go forth &#187;</option>
+{/block:NextPage}
+       <option value="#"></option>
+<option value="/about">→ about</option><option value="/links">→ links</option>
+</select>
+
+
+
+    </body>
+</html>
