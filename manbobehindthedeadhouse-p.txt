@@ -1,0 +1,797 @@
+<html>
+<head>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<title>{title}</title>
+
+    <meta name="color:text" content="#dbdcca" />
+    <meta name="color:scroll background" content="#ffffff" />
+    <meta name="color:link" content="#eec1b1" />
+    <meta name="color:link hover" content="#eec1b1" />
+    <meta name="color:footer shadow" content="#ffffff " />
+    <meta name="color:footer text" content="#eec1b1" />
+    <meta name="color:footer link hover" content="#eec1b1" />
+    <meta name="color:footer bg hover" content="#ffffff" />
+    <meta name="color:blockquote" content="#eec1b1" />
+ 
+
+<style>
+.divine2 {
+
+    margin-left: 50px; 
+    float: left; 
+    width: 450px; 
+    height: 589; 
+    font-family: verdana; 
+    font-size: 9px; 
+    background-color: white;
+    color: #dbdcca; 
+    padding: 10px; 
+    border: 5px 
+    solid #dbdcca;
+    
+}
+
+
+
+a:link {color: #dbdcca; text-decoration:none;} 
+a:visited {color: #dbdcca; border-bottom: 1px dashed #edc1b2; }  
+a:hover {color: #dbdcca; border-bottom: 1px dashed #edc1b2; } 
+a:active {color: #dbdcca; text-decoration:none;} 
+
+  @font-face {
+font-family: "dawningofanewday";
+src: url('http://static.tumblr.com/jtqlgf2/SeUm2ds6e/dawningofanewday.ttf');} 
+
+ h1 {
+margin-top: -30px;
+margin-bottom: -15px;
+     font-family: "dawningofanewday";
+     font-weight:normal;
+    text-transform: lowercase; 
+    font-size: 24px !important;  
+    }
+
+ body, div, table, tr, td, img, p, ol, li { list-style-type: square; } 
+ OL, LI { text-align: left; }
+
+::-webkit-scrollbar-thumb {
+background-color: transparent;
+height: 30px;
+background: #8ac1e9 url('http://media.tumblr.com/43e035dc8e80bab177bf22d7f3737d3d/tumblr_inline_mhudmivhiP1qz4rgp.gif') top left fixed repeat;
+}
+
+::-webkit-scrollbar {
+height: 30px;
+width: 7px;
+background-color: white;
+}
+
+.s3, .s4, .s5, .s6, .s7 {
+text-align: center;
+border-radius: 100px;
+ }
+ 
+
+.s4, .s7 {opacity: 0.0;  width: 100px;  height: 100px;  position: absolute; margin-top: 80px;  margin-left: 70px;  background-color:  #dbdcca;; transition-duration: 0.6s;  -moz-transition-duration: 0.6s;  -webkit-transition-duration: 0.6s;  -o-transition-duration: 0.6s}   
+
+.s5, .s6 {opacity: 0.0;  width: 100px;  height: 100px;  position: absolute;  margin-top: 80px;  margin-left: 70px;  background-color:  #dbdcca;;  transition-duration: 0.6s;  -moz-transition-duration: 0.6s;  -webkit-transition-duration: 0.6s;  -o-transition-duration: 0.6s;}  
+.main:hover .s4 {opacity: 1.0;  margin-top: -25px;  margin-left: -35px;  transition-duration: 0.6s;  -moz-transition-duration: 0.6s;  -webkit-transition-duration: 0.6s;  -o-transition-duration: 0.6s;}  
+.main:hover .s5 {opacity: 1.0; margin-top: -25px;  margin-left: 170px;  transition-duration: 0.6s;  -moz-transition-duration: 0.6s;  -webkit-transition-duration: 0.6s;  -o-transition-duration: 0.6s;}  
+.main:hover .s6 {opacity: 1.0; margin-top: 170px;  margin-left: -35px;  transition-duration: 0.6s;  -moz-transition-duration: 0.6s;  -webkit-transition-duration: 0.6s;  -o-transition-duration: 0.6s;}  
+.main:hover .s7 {opacity: 1.0; margin-top: 170px;  margin-left: 170px;  transition-duration: 0.6s;  -moz-transition-duration: 0.6s;  -webkit-transition-duration: 0.6s;  -o-transition-duration: 0.6s;}
+
+.baka { 
+width: 100px; 
+height: 100px; 
+position: relative;
+z-index: 10;
+color: #fff;
+text-align: center;
+line-height: 100px;}
+
+/* shitte */
+
+
+
+   .post {
+                    font-family: verdana;
+                    background: #fff;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -o-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    padding: 7px;
+                    margin-bottom: 25px;
+                    position: relative;
+                    box-shadow:rgba({text:glow rgb},0.6) 0px 0px 10px 1px;
+                }
+                   
+       
+                   
+                   
+                     .post .media {
+                        max-width: 400px;
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                        text-align: center;
+                        margin-bottom: 4px;
+                    }
+                   
+                     .post .media img {
+                        max-width: 400px;
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                    }
+                   
+                    .photoset_photo {
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                    }
+                   
+                    .photoset_row {
+                        width: 400px;
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                    }
+                   
+                    .photoset {
+                        width: 400px;
+                        overflow: hidden;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                    }
+                   
+                     .post .quotebg {
+                        font-family: georgia;
+                        font-size: 130px;
+                        color: {color:link hover};
+                        opacity: 0.5;
+                        filter: alpha(opacity=50);
+                        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+                        position: absolute;
+                        top: -5px;
+                        left: 10px;
+                    }
+                   
+                     .post .quote {
+                        color: {color:text};
+                        font-weight: bold;
+                        padding: 20px 20px 5px 20px;
+                    }
+                   
+                     .post .quote.short {
+                        font-size: 10px;
+                        line-height: 20px;
+                    }
+                   
+                     .post .quote.medium {
+                        font-size: 10px;
+                        line-height: 20px;
+                    }
+                   
+                     .post .quote.long {
+                        font-size: 10px;
+                        line-height: 20px;
+                    }
+                                       
+                         .post .quote_source *:first-child {
+                            margin-top: 0px;
+                        }
+                       
+                         .post .quote_source *:last-child {
+                            margin-bottom: 0px;
+                        }
+                       
+                         .post .quote *:first-child {
+                            margin-top: 0px;
+                        }
+                       
+                         .post .quote *:last-child {
+                            margin-bottom: 0px;
+                        }
+                       
+                     .post .copy {
+                        color: {color:text};
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        font-size: 10px;
+                        line-height: 15px;
+                       
+                    }
+                       
+                         .post .copy a {
+                            color: {color:Link};
+                            text-decoration: none;
+                            font-weight: bold;
+                            -webkit-transition: all 0.2s ease-out;
+                            -moz-transition: all 0.2s ease-out;
+                            transition: all 0.2s ease-out;
+                        }
+                       
+                         .post .copy a:hover {
+                            color: {color:link hover};
+                            text-decoration: none;
+                            font-weight: bold;
+                            -webkit-transition: all 0.2s ease-out;
+                            -moz-transition: all 0.2s ease-out;
+                            transition: all 0.2s ease-out;
+                        }
+                       
+                         .post .copy p {
+                            margin: 10px 0 0 0;
+                            padding: 0;
+                        }
+                       
+                         .post .copy pre {
+                            padding: 10px;
+                            background-color: #ffffff;
+                            font: normal 10px Courier, monospace;
+                            overflow: auto;
+                        }
+                       
+                         .post .copy > p:first-child {
+                            margin-top: 0;
+                        }
+                       
+                         .post .copy img {
+                            max-width: 100%;
+                        }
+                   
+                     .post .audio {
+                        background: #ffffff;
+                        float: left;
+                        padding: 4px;
+                        margin-bottom: 7px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                    }
+                                                       
+                         .post .audio .player {
+                            float: left;
+                        }
+                       
+                             .post .audio .player .audio_player embed {
+                                border: 1px solid #c8c8c8;
+                            }
+                       
+                         .post .audio .meta {
+                            padding: 8px 13px;
+                            height: 13px;
+                            float: left;
+                            color: #666;
+                            font-family: verdana;
+                            font-size: 10px;
+                            text-transform: lowercase;
+                        }
+                       
+                           
+                   
+                     .post .album_art {
+                        text-align: center;
+                    }
+                   
+                     .post .question {
+                        color: {color:text};
+                        font-size: 10px;
+                        font-weight: normal;
+                        background: #ffffff;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                        border-radius: 8px;
+                        margin: 0 0 7px 0;
+                        padding: 15px 20px;
+                        position: relative;
+                    }
+                   
+                         .post .question .nipple {
+                            width: 13px;
+                            height: 7px;
+                            font-size: 10px;
+                            background: #ffffff;
+                            color: {color:text};
+                            position: absolute;
+                            bottom: -7px;
+                            left: 30px;
+                        }
+                       
+                     .post .asker_container {
+                        margin: 0 0 20px 24px;
+                        font-size: 10px;
+                        text-transform: lowercase;
+                    }
+                   
+                         .post .asker_container img {
+                            margin: 0 12px -7px 0;
+                        }
+                       
+                         .post .asker_container a.asker {
+                            color: {color:Link};
+                            text-decoration: none;
+                            font-size:10px;
+                            font-weight: bold;
+                            -webkit-transition: all 0.2s ease-out;
+                            -moz-transition: all 0.2s ease-out;
+                            transition: all 0.2s ease-out;
+                        }
+                   
+                     .post .asker_container a.asker:hover {
+                            color: {color:link hover};
+                            text-decoration: none;
+                            font-weight: bold;
+                            -webkit-transition: all 0.2s ease-out;
+                            -moz-transition: all 0.2s ease-out;
+                            transition: all 0.2s ease-out;
+                        }
+                   
+                   
+                     .post .title {
+                        color: {color:link};
+                        font-size: 13px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        padding: 1px 10px 2px 10px;
+                    }
+                   
+                     .post img {
+                      max-width: 500px;
+                    }
+                                       
+                     .post .chat {
+                        background-color: #fff;
+                        border-left: 3px solid {color:blockquote};
+                        margin: 10px 10px 0 10px;
+                        font-size: 10px;
+                    }
+                                       
+                         .post .chat .lines {
+                            margin-left: 1px;
+                        }
+                       
+                             .post .chat .lines .line {
+                                background-color: #ffffff;
+                                color: #494949;
+                                margin-bottom: 1px;
+                                padding: 3px 5px;
+                            }
+                       
+                           
+                             .post .chat .lines .line.even {
+                                background-color: #ffffff;
+                            }
+                       
+                         .post .link {
+                            margin: 1px 0 2px 0;
+                            font-size: 9px;
+                            font-weight:bold;
+                            text-transform: uppercase;
+                            line-height: 25px;
+                        }
+                           
+                             .post .link a {
+                                background-color: {color:footer bg};
+                                color: {color:footer text};
+                                padding: 5px 7px;
+                                border-radius: 2px;
+                                    -moz-border-radius: 2px;
+                                    -webkit-border-radius: 2px;
+                                    -o-border-radius: 2px;
+                                    -ms-border-radius: 2px;
+                                text-shadow: {color:footer shadow} 1px 1px;
+                                -webkit-transition: all 0.5s ease-out;
+                                -moz-transition: all 0.5s ease-out;
+                                transition: all 0.5s ease-out;
+                            }
+                           
+                             .post .link a:hover {
+                                background-color: {color:footer bg hover};
+                                color: {color:footer text};
+                                text-decoration: none;
+                                -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                            }
+                           
+                           
+                     .post .footer2 {
+                        color: {color:footer text};
+                        background: {color:footer bg} url('') top left fixed repeat;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                        font-family: verdana;
+                        font-size: 9px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        -webkit-transition: all 0.5s ease-out;
+                        -moz-transition: all 0.5s ease-out;
+                                -o-transition: all 0.5s ease-out;
+                                -ms-transition: all 0.5s ease-out;
+                        transition: all 0.5s ease-out;
+                        padding: 3px 6px;
+                        margin-top: 5px;
+                        text-shadow: {color:footer shadow} 1px 1px;
+                       
+               
+                    }
+                   
+                     .post .footer2:hover {
+                        color: {color:footer text};
+                        background-color: {color:footer bg hover};
+                        -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                -o-transition: all 0.2s ease-out;
+                                -ms-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                       
+                    }
+                       
+                       
+                       
+                         .post .footer2 .tags {
+                            color: {color:footer text};
+                            width: 100%;
+                            text-align: left;
+                           
+                        }
+                       
+                         .post .footer2 .tags:hover {
+                                text-decoration: none;  
+                                color: {color:footer text};
+                            }
+                           
+                          .post .footer2 .tags a {
+                                text-decoration: none;  
+                                color: {color:footer text};
+                                -webkit-transition: all 0.3s ease-out;
+                                -moz-transition: all 0.3s ease-out;
+                                -o-transition: all 0.3s ease-out;
+                                -ms-transition: all 0.3s ease-out;
+                                transition: all 0.3s ease-out;
+                            }
+ 
+                         .post .footer2 .tags a:hover {
+                                text-decoration: none;  
+                                color: {color:footer link hover};
+                                -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                -o-transition: all 0.2s ease-out;
+                                -ms-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                            }
+                       
+                         .post .footer2 .source {
+                            color: {color:footer text};
+                            height: 0px;
+                            position: relative;
+                            top: -13px;
+                            text-align: right;
+                           
+                        }
+                       
+                         .post .footer2 .source:hover {
+                                text-decoration: none;  
+                                color: {color:footer text};
+                            }
+                           
+                             .post .footer2 .source a {
+                                text-decoration: none;
+                                color: {color:footer text};
+                                -webkit-transition: all 0.3s ease-out;
+                                -moz-transition: all 0.3s ease-out;
+                                -o-transition: all 0.3s ease-out;
+                                -ms-transition: all 0.3s ease-out;
+                                transition: all 0.3s ease-out;
+                            }
+ 
+                         .post .footer2 .source a:hover {
+                                text-decoration: none;  
+                                color: {color:footer link hover};
+                                -webkit-transition: all 0.2s ease-out;
+                                -moz-transition: all 0.2s ease-out;
+                                -o-transition: all 0.2s ease-out;
+                                -ms-transition: all 0.2s ease-out;
+                                transition: all 0.2s ease-out;
+                            }
+                   
+                     .post .footer {
+                        color: {color:footer text};
+                        background: {color:footer bg} url('') top left fixed repeat;
+                        border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -o-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                        font-family: verdana;
+                        font-size: 9px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                       
+                        padding: 3px 6px;
+                        margin-top: 5px;
+                        text-shadow: {color:footer shadow} 1px 1px;
+                       
+                        -webkit-transition: all 0.5s ease-out;
+                        -moz-transition: all 0.5s ease-out;
+                        transition: all 0.5s ease-out;
+               
+                    }
+                   
+                     .post .footer:hover {
+                        color: {color:footer text};
+                        -webkit-transition: all 0.2s ease-out;
+                        -moz-transition: all 0.2s ease-out;
+                        transition: all 0.2s ease-out;
+                       
+                    }
+                       
+                         .post .footer.for_permalink:hover {
+                            color: {color:footer text};
+                            background-color: {color:footer bg hover};
+                        }
+                       
+                         .post .footer .date {
+                            color: {color:footer text};
+                            width: 66%;
+                            float: left;
+                           
+                        }
+                       
+                         .post .footer .date:hover {
+                                text-decoration: none;  
+                                color: {color:footer text};
+                            }
+                       
+                         .post .footer .notes {
+                            color: {color:footer text};
+                            width: 33%;
+                            float: right;
+                            text-align: right;
+                           
+                        }
+                       
+                         .post .footer .notes:hover {
+                                text-decoration: none;  
+                                color: {color:footer text};
+                            }
+                           
+                             .post .footer .notes a {
+                                text-decoration: none;
+                                color: {color:footer text};
+                            }
+ 
+                         .post .footer .notes a:hover {
+                                text-decoration: none;  
+                                color: {color:footer text};
+                            }
+                           
+                           
+                       
+                         .post a {
+                            color: {color:Link};
+                            text-decoration: none;
+                        }
+                       
+                         .post a:hover {
+                            color: {color:link hover};
+                            text-decoration: none;
+                        }
+                       
+                             .post .copy blockquote {
+                                margin: 10px 0px 10px 10px;
+                                padding-left: 15px;
+                                border-left: solid 3px {color:blockquote};
+                            }
+
+
+
+</style>
+</head>
+
+<body style="background-image: url(http://media.tumblr.com/43e035dc8e80bab177bf22d7f3737d3d/tumblr_inline_mhudmivhiP1qz4rgp.gif);">
+
+
+<center><div class="container"  style="margin-top: 5%; margin-left: 10%;">
+
+<div class="divine1" style="margin-top: 5%; float: left; width: 240px; font-family: verdana; font-size: 9px; background-color: white;color: #dbdcca; padding: 10px; border: 5px solid #dbdcca;"><div class="main">
+<a href="/"><div class="s4"><div class="baka">home</div></div></a>
+<a href="/ask"><div class="s5"><div class="baka">message</div></div></a>
+<a href="/submit"><div class="s6"><div class="baka">submit</div></div></a>
+<a href="/archive"><div class="s7"><div class="baka">archive</div></div></a>
+<img src="http://25.media.tumblr.com/tumblr_m31vmfBQA51r4gepxo1_500.jpg" width="230px" height="230px" style=" border-radius: 1000px;" ></div><p><br>
+<div style="padding: 10px; border: 3px solid #fff1e2"><h1>{title}</h1><p>
+{description}<p>
+</div></div>
+</div>
+
+
+
+
+
+<div class="divine2">
+<div style="padding: 10px; border: 3px solid #fff1e2; overflow-y: auto;  max-height: 579px;">
+ 
+ 
+  {block:Posts}
+                <div class="post">
+                   
+                    {block:Photo}
+                        <div class="media">{LinkOpenTag}<img width="400px" src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>{LinkCloseTag}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                        {block:PermalinkPage}<a class="no" href="{ReblogParentURL}">{ReblogParentName}</a>{block:ContentSource}<a class="no"
+ 
+href="{SourceURL}">{SourceTitle}</a>{/block:ContentSource}{/block:PermalinkPage}
+                    {/block:Photo}
+                   
+                    {block:Photoset}
+                        <div class="media">{LinkOpenTag}{Photoset-400}{LinkCloseTag}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                        {block:PermalinkPage}<a class="no" href="{ReblogParentURL}">{ReblogParentName}</a>{/block:PermalinkPage}
+                    {/block:Photoset}
+                   
+                    {block:Video}
+                        <div class="media">{Video-400}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                    {/block:Video}
+                   
+                    {block:Audio}
+                       
+                        {block:AudioEmbed}
+                            {AudioEmbed}
+                        {/block:AudioEmbed}
+                       
+                        {block:AudioPlayer}
+                           
+                                {block:AlbumArt}
+                                    <div class="media">
+                                        <img src="{AlbumArtURL}" width="400px" alt="{block:Artist}{Artist}{/block:Artist}{block:TrackName} -
+ 
+{TrackName}{/block:TrackName}"  />
+                                    </div>
+                                {/block:AlbumArt}
+                           
+                       
+                            <div class="audio">
+                                <div class="player">{AudioPlayerWhite}</div>
+                                <div class="meta">{block:PlayCount}{PlayCountWithLabel}!{/block:PlayCount}{block:ExternalAudio}<span
+ 
+class="download_external_audio"> <a href="{ExternalAudioURL}">{lang:Download}</a></span>{/block:ExternalAudio}</div>
+                                <div class="clear"></div>
+                            </div>
+                        {/block:AudioPlayer}
+                       
+                        <div class="clear"></div>
+                       
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                       
+                    {/block:Audio}
+                   
+                    {block:Quote}
+                        <div class="quotebg">“</div>
+                        <div class="quote {Length}">{Quote}</div>
+                        <div class="copy">
+                            {block:Source}
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td valign="top" style="width:20px;">&mdash;</td>
+                                        <td valign="top" class="quote_source">
+                                            {Source}
+                                        </td>
+                                    </tr>
+                                </table>
+                            {/block:Source}
+                        </div>
+                    {/block:Quote}
+                       
+                    {block:Text}
+                        {block:Title}<div class="title">{Title}</div>{/block:Title}
+                        <div class="copy">{Body}</div>
+                    {/block:Text}
+                   
+                    {block:Answer}
+                        <div class="question">
+                            <div class="nipple"></div>
+                            <b>{Question}</b>
+                        </div>
+                        <div class="asker_container"><img src="{AskerPortraitURL-24}">{Asker}</div>
+                        <div class="copy">{Answer}</div>
+                    {/block:Answer}
+                   
+                    {block:Chat}
+                        {block:Title}<div class="title">{Title}</div>{/block:Title}
+                        <div class="chat">
+                            <div class="lines">
+                                {block:Lines}
+                                    <div class="line {Alt}">{block:Label}<strong>{Label}</strong>{/block:Label} {Line}</div>
+                                {/block:Lines}
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div style="height:10px;"></div>
+                    {/block:Chat}
+                   
+                    {block:Link}
+                        <div class="link"><a href="{URL}" {Target}>{Name} &raquo;</a></div>
+                        {block:Description}<div class="copy">{Description}</div>{/block:Description}
+                    {/block:Link}
+                   
+                    {block:Date}
+                        <a href="{Permalink}">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    {block:Reblog}
+                                        {TimeAgo}
+                                    {/block:Reblog}
+                                   
+                                    {block:NotReblog}
+                                        {TimeAgo}
+                                    {/block:NotReblog}
+                                </div>
+                                <div class="notes">{block:NoteCount}{NoteCountWithLabel}{/block:NoteCount} </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    {/block:Date}
+                   
+                   
+                       
+                       
+                       
+                        <div class="clear"></div>
+                   
+                    {block:PermalinkPage}{block:Date}<div class="footer2">
+                       
+                        <div class="tags">{block:HasTags}{block:Tags}<a href="{TagURL}">#{Tag}</a> {/block:Tags}{/block:HasTags}  </div>
+ 
+<div class="source">{block:ContentSource}<a href="{SourceURL}" title="source">©</a>{/block:ContentSource}</div>
+                   
+                   </div>{/block:Date}{/block:PermalinkPage}
+                 
+                   
+                    {block:PostNotes}<div class="notecontainer">{PostNotes}</div>{/block:PostNotes}
+                   
+           
+                   
+                </div>
+ 
+               
+            {/block:Posts}
+            
+    {block:Pagination}<center><font class="arrowsholder">{block:PreviousPage}<a style="text-align:left" href="{PreviousPage}">
+            previous 
+               
+            </a>                        {/block:PreviousPage}{block:NextPage}<a style="text-align:right" href="{NextPage}">
+             next
+               
+            </a>{/block:NextPage}</font></font></center><p>{block:Pagination}
+</div></div>
+</div>
+        
+
+
+</body>
+</html>
