@@ -1,0 +1,335 @@
+<html>
+<!--
+
+JAMIES REALLY LAME THEME #3: a tragic backstory
+look at that komatsumi look at it (i cry)
+
+-->
+
+<head>
+    <meta name="color:text" content="#306b7a" />
+    <meta name="color:background" content="#000000" />
+    <meta name="color:scroll background" content="#ffffff" />
+    <meta name="color:link" content="#ffd8d5" />
+    <meta name="color:link hover" content="#306b7a" />
+    <meta name="color:footer shadow" content="#ffffff " />
+    <meta name="color:footer text" content="#306b7a" />
+    <meta name="color:footer link hover" content="#306b7a" />
+    <meta name="color:footer bg hover" content="" />
+    <meta name="color:blockquote" content="#306b7a" />
+
+ <LINK href="http://static.tumblr.com/sehd4wx/1stmqonr3/test.css" rel="stylesheet" type="text/css">
+                           
+<style>
+ @font-face {font-family:"bitxmap"; src: url("http://static.tumblr.com/ofgksh6/md0mkd9yd/bitxmap_font_tfb.ttf")}
+ @font-face {font-family:"lilsnorlax"; src: url("http://mochabean.mezoka.com/font/littlesnorlax.ttf")}
+
+
+
+::-webkit-scrollbar {
+width:10px;
+height:10px;
+background: ;
+}
+           
+::-webkit-scrollbar-thumb {
+background: #ddf8ff;
+border-radius:5px;
+}
+
+A {
+color : #8c8673;
+text-decoration : none;
+}
+
+
+
+body { 
+    font-family: bitxmap;
+    font-size: 10px;
+background-image: url('http://static.tumblr.com/sehd4wx/bwumqoksz/tumblr_inline_ml9a98l0zw1qz4rgp.gif');
+background-position: fixed;
+background-repeat: yes;
+}
+
+h1 {
+    position: relative;
+    font-family: lilsnorlax;
+    font-size: 120px;
+    color: #3cabc8;
+    font-weight:normal;
+    margin-bottom: -70px;
+    margin-top: -50px;
+    z-index:3;
+}
+
+select {
+    z-index:999;
+    font-family:bitxmap;
+    color: #306b7a;
+    background:  #d2f1fb;
+    width:300px;
+    position:relative;
+
+    font-size:10px;
+    letter-spacing:3px;
+    border:10px solid  #d2f1fb;
+    opacity: 0.7;
+    }
+
+#nav {
+    position: relative; 
+    z-index: 999999; 
+}
+
+#k_main {
+    margin-top: 6%;
+}
+
+#k_content {
+    z-index: -1 !important;  
+    padding: 10px; 
+    border-radius:10px; 
+    width: 450px; 
+    background-color: #d2f1fb; 
+    opacity: 0.7;
+}
+
+#k_content2 {
+    color: #306b7a; 
+    }
+  
+
+#k_post_margin {
+    height 200px; 
+    padding: 5px; 
+    opacity: 0;
+}
+
+
+#menu {
+    border-radius: 10px;
+width:290px;
+margin-top: -180px;
+height:110px;
+overflow:hidden;
+-webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-o-transition: all 2s ease;
+text-align: center;
+z-index: 99999999;
+padding: 5px;
+padding-bottom: 20px transparent;
+opacity: 0;
+filter:alpha(opacity=0);
+-moz-opacity: 0.7;
+line-height: 15px;
+}
+ 
+#menu:hover{
+background-color: #fff;
+opacity: 0.8;
+filter:alpha(opacity=180);
+-moz-opacity: 0.8;
+z-index: 99999999;
+}
+
+
+</style>
+
+</head>
+<body>
+
+
+
+
+<center>
+<div id="k_main" >
+
+<img src="http://31.media.tumblr.com/0897143e81274b167cd86d5663e790c6/tumblr_moq37wFhPc1rni65bo1_500.png"><br><div id="menu">{description}</div>
+<a href="/"><h1>{title}</h1></a>
+
+<select onChange="location.href=this.options[this.selectedIndex].value;">
+<option style="color: #c7e6f5"'>navigate the blog</option>
+<option value="/">? return home</option>
+<option value="/ask">? send a messege</option>
+<option value="/submit">? submit a post</option>
+<option value="/archive">? look into the past</option>
+<option value="/random">? veiw a random post</option>
+<option value="http://freakmoch.deviantart.com">? credit</option>
+</select>
+         
+
+          
+    <div id="k_content">
+    <div id="k_content2">
+        
+
+<!-- POST CODE -->
+ 
+ 
+  {block:Posts}
+                <div class="post">
+                   
+                    {block:Photo}
+                        <div class="media">{LinkOpenTag}<img width="400px" src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>{LinkCloseTag}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                        {block:PermalinkPage}<a class="no" href="{ReblogParentURL}">{ReblogParentName}</a>{block:ContentSource}<a class="no"
+ 
+href="{SourceURL}">{SourceTitle}</a>{/block:ContentSource}{/block:PermalinkPage}
+                    {/block:Photo}
+                   
+                    {block:Photoset}
+                        <div class="media">{LinkOpenTag}{Photoset-400}{LinkCloseTag}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                        {block:PermalinkPage}<a class="no" href="{ReblogParentURL}">{ReblogParentName}</a>{/block:PermalinkPage}
+                    {/block:Photoset}
+                   
+                    {block:Video}
+                        <div class="media">{Video-400}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                    {/block:Video}
+                   
+                    {block:Audio}
+                       
+                        {block:AudioEmbed}
+                            {AudioEmbed}
+                        {/block:AudioEmbed}
+                       
+                        {block:AudioPlayer}
+                           
+                                {block:AlbumArt}
+                                    <div class="media">
+                                        <img src="{AlbumArtURL}" width="400px" alt="{block:Artist}{Artist}{/block:Artist}{block:TrackName} -
+ 
+{TrackName}{/block:TrackName}"  />
+                                    </div>
+                                {/block:AlbumArt}
+                           
+                       
+                            <div class="audio">
+                                <div class="player">{AudioPlayerWhite}</div>
+                                <div class="meta">{block:PlayCount}{PlayCountWithLabel}!{/block:PlayCount}{block:ExternalAudio}<span
+ 
+class="download_external_audio"> <a href="{ExternalAudioURL}">{lang:Download}</a></span>{/block:ExternalAudio}</div>
+                                <div class="clear"></div>
+                            </div>
+                        {/block:AudioPlayer}
+                       
+                        <div class="clear"></div>
+                       
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                       
+                    {/block:Audio}
+                   
+                    {block:Quote}
+                        <div class="quotebg">“</div>
+                        <div class="quote {Length}">{Quote}</div>
+                        <div class="copy">
+                            {block:Source}
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td valign="top" style="width:20px;">&mdash;</td>
+                                        <td valign="top" class="quote_source">
+                                            {Source}
+                                        </td>
+                                    </tr>
+                                </table>
+                            {/block:Source}
+                        </div>
+                    {/block:Quote}
+                       
+                    {block:Text}
+                        {block:Title}<div class="title">{Title}</div>{/block:Title}
+                        <div class="copy">{Body}</div>
+                    {/block:Text}
+                   
+                    {block:Answer}
+                        <div class="question">
+                            <div class="nipple"></div>
+                            <b>{Question}</b>
+                        </div>
+                        <div class="asker_container"><img src="{AskerPortraitURL-24}">{Asker}</div>
+                        <div class="copy">{Answer}</div>
+                    {/block:Answer}
+                   
+                    {block:Chat}
+                        {block:Title}<div class="title">{Title}</div>{/block:Title}
+                        <div class="chat">
+                            <div class="lines">
+                                {block:Lines}
+                                    <div class="line {Alt}">{block:Label}<strong>{Label}</strong>{/block:Label} {Line}</div>
+                                {/block:Lines}
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div style="height:10px;"></div>
+                    {/block:Chat}
+                   
+                    {block:Link}
+                        <div class="link"><a href="{URL}" {Target}>{Name} &raquo;</a></div>
+                        {block:Description}<div class="copy">{Description}</div>{/block:Description}
+                    {/block:Link}
+                   
+                    {block:Date}
+                        <a href="{Permalink}">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    {block:Reblog}
+                                        {TimeAgo}
+                                    {/block:Reblog}
+                                   
+                                    {block:NotReblog}
+                                        {TimeAgo}
+                                    {/block:NotReblog}
+                                </div>
+                                <div class="notes">{block:NoteCount}{NoteCountWithLabel}{/block:NoteCount} </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    {/block:Date}
+                   
+                   
+                       
+                       
+                       
+                        <div class="clear"></div>
+                   
+                    {block:PermalinkPage}{block:Date}<div class="footer2">
+                       
+                        <div class="tags">{block:HasTags}{block:Tags}<a href="{TagURL}">#{Tag}</a> {/block:Tags}{/block:HasTags}  </div>
+ 
+<div class="source">{block:ContentSource}<a href="{SourceURL}" title="source">©</a>{/block:ContentSource}</div>
+                   
+                   </div>{/block:Date}{/block:PermalinkPage}
+                 
+                   
+                    {block:PostNotes}<div class="notecontainer">{PostNotes}</div>{/block:PostNotes}
+                   
+           
+                   
+                </div>
+ 
+               
+            {/block:Posts}
+           
+ 
+<!-- CLOSE POST CODE -->
+    </div>
+    
+       {block:Pagination}{block:PreviousPage}<a style="text-align:left" href="{PreviousPage}">← <img src="http://media.tumblr.com/tumblr_mf20ek45yc1rovnlx.png"></a>{/block:PreviousPage}{block:NextPage}<a style="text-align:right" href="{NextPage}"><img src="http://media.tumblr.com/tumblr_mf2176RRdD1rovnlx.png"> →</a>{/block:NextPage}
+       {/block:Pagination}
+    
+    </div>
+    
+
+    
+ 
+</div>
+</div>
+
+
+   
+
+</body>
+</html>
