@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+
+┬┌┬┐┌─┐┌─┐┬┌┐┌┌─┐┬ ┬┌─┐┬ ┬┬─┐┬┌─┐┌─┐┌┐┌
+││││├─┤│ ┬││││├┤ └┬┘│ ││ │├┬┘││  │ ││││ 
+┴┴ ┴┴ ┴└─┘┴┘└┘└─┘ ┴ └─┘└─┘┴└─┴└─┘└─┘┘└┘ .tumblr.com
+frosted imagination for everyone! (tm)
+
+ Theme  >> frosted glass 1.1
+ 		-> now supports Pages! 
+		  + an unnamed tweak you probably won't notice
+  	by  >> spaceperson
+			 [https://twitter.com/ueberleben]
+		>> Free to use, to share and alter
+		>> Please give credit.
+		
+	modified by mod 2/jam @ 2016, 2022
+		>> Updated to HTML5 
+		>> Added Poster Icons... that spin
+		    (This blog is icon focused so
+		    it NEEDED icons to be big and bold baby)
+		>> Centered Navigation
+		>> Fade-In animations
+		>> Google Fonts Added to spruce Navigation
+		>> Removed Search bc It Doesn't Work
+		>> Updated the credits link to direct to
+		    the Tumblr Themes page, as spaceperson's
+		    site is not active,
+		
+  feel free to use this modded vers to your leisure
+	just credit spaceperson and I (mod 2)
+    		 
+	It's been so long since I messed with Tumblr CSS
+	May persephone grant me patience lol
+
+	Google Fonts Used:
+	'Oswald', sans-serif;
+		 
+--> 
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>{Title}{block:PostTitle} - {PostTitle}{/block:PostTitle}</title>
+	<META NAME="Description" CONTENT="{MetaDescription}">
+	<link rel="shortcut icon" href="{Favicon}">
+	 <link rel="alternate" type="application/rss+xml" href="{RSS}">
+	<!-- DEFAULTS -->
+	<meta name="if:Show Description" content="0"/>
+	<!-- DEFAULT TEXT -->
+	<meta name="text:Tagged" content=""/>
+	<meta name="text:No Search Results" content="Your query didn't return any results."/>
+	<meta name="text:Search Text" content="You were looking for "/>
+	<!-- DEFAULT FONTS -->
+	<meta name="color:Accent" content="#09C"/>
+		
+	<!-- Imported Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+	
+	<style type="text/css">
+	/* 
+========================================================
+┬ ┬┌─┐┬ ┬┬ 	If you want to use this theme for your own, 
+├─┤├┤ └┬┘│ 	make sure to grab ALL the CSS In THIS FILE 
+┴ ┴└─┘ ┴ o 	before you mod! Don't forget to credit!
+				Have fun!
+========================================================
+(This was supposed to be an external CSS file but Tumblr
+wont let me upload it. Oh Well!)
+    */
+
+@keyframes spinning {
+    from { transform: rotateY(0deg) }
+    to { transform: rotateY(360deg) }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+a, a:visited {	text-decoration:none; } 
+a:link { color:#6aaf82; }		/* unvisited link */
+a:visited { color:#6aaf82; }	/* visited link */
+a:hover { color:#ffffff; }		/* mouse over link */
+a:active { color:#6aaf82; }		/* selected link */
+
+main, article {
+     animation: fadeIn 2s;
+}
+
+blockquote {
+	border-left: 2px solid #6aaf82;
+	padding-left:10px;
+	}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #131F26;
+	margin:0;
+	color: white !important;
+	}
+	
+	
+.chat{
+	padding: 0 10px 0 0px;
+	}
+
+
+.date { 
+	font-size: 0.8em;
+	text-align: right;
+	font-style: italic;
+	width: 95%;
+	margin:  0 0 5em 0;
+	}
+	
+.description{
+	margin: 30px 0 0 0;
+	text-align:right;
+	color: #fff;
+	}
+	
+.desc_author{
+	font-size:15px;
+	padding-left: 15px;
+	
+	}
+	
+.desc_notes, .desc_notes a{
+	font-size:10px;
+	color:#6aaf82;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	text-decoration:none;
+	}
+	
+.desc_notes a:hover{
+	text-decoration:underline;
+	border:none;
+	}
+
+.desc_permalink a{
+	font-size:18px;
+	color:#6aaf82;
+	text-decoration:none;
+	border:none;
+	}
+	
+.desc_permalink a:hover{
+	text-decoration:underline;
+	}
+
+.divider {
+	width: 90%;
+	margin: 20px auto 10px auto;
+	height: 30px;
+	}
+	
+.footer .credit {
+	text-align:right;
+	float:right;
+	}
+	
+.footer_nav, .footer_nav a{
+	font-size:11px;
+	text-align:center;
+	text-decoration:none;
+	padding-bottom: 15px;
+	}
+	
+.footer_nav a:hover{
+	color:#6aaf82;
+	}
+	
+.footer_nav_text{
+	padding: 3px 20px 3px 20px;
+	border-top: 1px solid #000;
+	}
+
+.headline_post{
+	font-size:24px;
+	letter-spacing:-2px;
+	line-height:80%;
+	}
+	
+.headline_post a{
+	color:#333;
+	text-decoration:none;
+	border:none;
+	}
+	
+.headline_post a:hover{
+	color:#6aaf82;
+	}
+	
+.highlight {
+	color:#6aaf82;
+	}
+	
+.label{
+	padding-right:10px;
+	text-transform:uppercase;
+	letter-spacing: 3px;
+	font-size:.8em;
+	}
+
+#lenkun {
+	position: fixed; 
+	bottom: -400px; 
+	right:5px; 
+	opacity: 0.05; 
+	z-index:-0
+	}
+
+.logo{
+	text-align:left;
+	padding-left:5px;
+	margin: 50px auto 5px 0px;
+	width:200px;
+	color:#FFF;
+	}
+
+.logo_type{
+	background-color:#000;
+	font-size:45px;
+	letter-spacing:-2px;
+	}
+
+.logo_description{
+	font-style:italic;
+	font-size:12px;
+	padding-left:5px;
+	margin-top:-3px;
+	color: white;
+	}
+	
+.nav-wrap {
+	 display:block;  
+	 text-align:center;
+	 margin-left:auto !important;
+	 margin-right:auto !important;
+	 max-width: 80%;
+	}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+	}
+
+.navigation li {
+	display: inline;
+	}
+
+.navigation li a {
+	font-family: 'Oswald', sans-serif;
+	background-color:none;
+	font-size: 1.2em;
+	text-align: center;
+	color: #6aaf82;
+	 padding: 10px 10px 0px 10px;
+	text-decoration:none;
+	text-transform:uppercase;
+	height:25px;
+	}
+	 
+.navigation li a:hover {
+	border-bottom:5px solid #333;
+	color: #fff;
+	}
+
+.nav_title{
+	 font-family: 'Oswald', sans-serif;
+	font-size:1.5em;
+	padding: 8px 10px 8px 10px;
+	border-right:1px solid #ccc;
+	letter-spacing:-1px;
+	color:#666;
+	text-align:center;
+	}
+
+.note {
+	list-style: none;
+}
+
+.notes li{
+	padding-bottom:10px;
+	}
+
+.notes .avatar {
+	background: white;
+	padding: 3px;
+	border: solid 1px #ccc; 
+	margin-right: 10px;
+	}
+	
+.notes_heading{ 
+	width:75px;
+	list-style: none;
+	margin: 0 0 20px -20px; 
+	padding: 0;
+	}
+
+.our_icon {
+	border-radius: 100px; 
+	margin-top: -30px;
+	background: #fff;
+	padding: 5px;
+	border: solid 3px #6aaf82;
+	}
+	
+.our_icon:hover {
+    animation-name: spinning;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: ease-in-out;
+    }
+
+#pageTitle {
+	display: block;
+	padding: 1em;
+	margin: 0 0 3em 0;
+}
+
+
+.picture_pic img, 
+.picture_pic a img, 
+figure img, 
+figure a img, 
+figure video, 
+.post_media_photo, 
+iframe {
+	width: 100% !important;
+	max-width: 560px !important;
+	border: 1px solid #666;
+	padding: 5px;
+	display: inline-block;
+	text-align:left;
+	margin: 5px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	}
+
+.picture_pic a img:hover, figure a img:hover {
+	padding: 5px;
+	border: 1px solid #6aaf82;
+	}
+	
+	
+.pic_hd a{
+	padding: 0 4px 0 3px;
+	letter-spacing:1px;
+	font-size:9px;
+	color:#fff;
+	background-color:#6aaf82;
+	text-transform:uppercase;
+	}
+	
+.pic_hd a:hover{
+	background-color:#fff;
+	color:#6aaf82;
+	}
+
+#postContainer {
+	display: block;
+	overflow: auto;
+	}
+
+#postContainer::after {
+	content: "";
+  	clear: both;
+  	display: table;
+}
+	 
+.post_desc{
+	width:180px;
+	float:left;
+	padding-left:10px;
+	}
+
+.post_text, .notes_block {
+	font:"Times New Roman";
+	line-height:150%;
+	font-size:15px;
+	}
+
+.post_text{
+	margin-top:10px;
+	}
+
+.post_text a, .action a{
+	text-decoration:none;
+	border-bottom: 1px dotted #000;
+	}
+
+.post_text a:hover, .tags_tag a:hover, .notes_block a:hover{
+	text-decoration:none;
+	color:#6aaf82;
+	}
+
+.post_text{
+	margin-top:10px;
+	}
+
+/* Post Formating Container */
+.post_single{
+	border-left:1px solid #ccc;
+	padding: 5px 5px 5px 20px;
+	border-radius: 0 10px;
+	margin-left:200px;
+	background-color: #E7E8E9;
+	min-height:175px;
+	color: #131F26;
+	}
+/* ------------------------- */
+
+.post_single_notes{
+	list-style: none;
+	padding:0 0 0 20px;
+	margin-left:190px;
+	}
+	
+.quote {
+	margin-top:30px;
+	}
+
+.quote_author, .quote_author a {
+	color:#999;
+	text-transform:uppercase;
+	font-size:11px;
+	padding-top:10px;
+	text-align:right;
+	}
+
+.quote_author a{
+	border-bottom: 1px dotted #999;
+	}
+
+.quote_author a:hover {
+	color:#6aaf82;
+	}
+
+.quote_headline{
+	font-size:24px;
+	line-height:80%;
+	}
+
+.search_box{
+	padding:1px;
+	top:8px;
+	right:20px;
+	width:131px;
+	text-align:left;
+	float:left;
+	}
+
+.search_form{
+	font-size: 11px;
+	height:13px;
+	}
+
+.spacer {
+	display: block;
+	height: 2em;
+	}
+
+.tags{
+	text-align:right;
+	color:#999;
+	font-size: 15px;
+	display: block;
+	}
+
+.tags_tag, .tags_tag a {
+	text-transform:lowercase;
+	border:0;
+	letter-spacing:1px;
+	font-size: 13px;
+	color:#999;
+	display: block;
+	}
+
+.black_back{
+	padding: 0 4px 0 3px;
+	background-color:#eee;
+	}
+
+.text-center {
+	text-align:  center !important;
+	margin: 0 auto;
+	}
+
+.type_headline, .logo_description, .type_headline_btn {
+	color:#666;;
+	letter-spacing:1px;
+	padding-bottom:7px;
+	}
+
+.type_headline, .type_headline_btn{
+	font-size:10px;
+	}
+
+.type_headline a:hover{
+	color:#6aaf82;
+	}
+
+.type_headline_btn{
+	background:none;
+	border:none;
+	padding-left:0;
+	padding-top:0;
+	}
+
+.type_headline_btn:hover{
+	color:#6aaf82;
+	cursor:pointer;
+	}
+
+.wrapper {
+	width: 80%;
+	max-width: 900px;
+	margin: 0 auto 0 auto;
+	background-color:#131F26;
+	}
+
+	
+		{CustomCSS}
+	</style>
+
+
+</head>
+
+<body>
+	<main class="wrapper">
+	<header class="text-center">
+		<div class="nav-wrap"><ul class="navigation">
+				<li class="nav_title">{Title}</li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/askbox">Ask</a></li>
+				<li><a href="/submit">Submit</a></li>
+		 		{block:HasPages} 
+		 		{block:Pages}<li><a href="{URL}">{Label}</a></li>{/block:Pages}
+		 		{/block:HasPages}
+				<li><a href="/random">Random</a></li>
+				<li><a href="/archive">Archive</a></li>
+		</ul></div>
+		
+		<div class="logo_description text-center">
+			<p style="display:none;">{Description}</p>
+			 <p>Inspired by <a href="https://imagineyourotp.tumblr.com">imagineyourotp</a>, imagine your icon is here to provide you with the proper amount of amusement! <br><a href="/submit">Feel free to submit!</a></p>
+		</div>
+	</header>
+
+		 
+	<section id="pageTitle">
+		{block:DayPage} <p>
+		<div class="type_headline">Posted On</div>
+		<div class="headline_post">{DayOfWeek}, {Month} {DayOfMonth}{DayOfMonthSuffix}, {Year}</div>
+		</p> {/block:DayPage}
+
+		{block:TagPage}<p>
+		<div class="type_headline">Tagged</div>
+		<div class="headline_post">{Tag}</div>
+		</p>{/block:TagPage}
+
+		{block:SearchPage}<p>
+		<div class="type_headline">Search</div>
+		<div class="headline_post">
+			{text:Search Text}
+			<span class="highlight">{SearchQuery}</span>.
+			{block:NoSearchResults} <div class="post_single">
+				<br />{text:No Search Results}</div>
+			{/block:NoSearchResults}
+			</div>
+		{/block:SearchPage}
+	</section>
+
+	{block:Posts}
+	<section id="postContainer">
+
+		<!-- Post SideBar -->
+		<article class="post_desc">
+			<div class="description">
+				<img src="{PostAuthorPortraitURL-96}" class="our_icon" /><br>
+				<span class="desc_permalink">
+					<a href="{Permalink}" title="permalink">∞</a>
+				</span>
+				<span class="desc_author">
+					<em>by <a href="https://{PostAuthorName}.tumblr.com">{PostAuthorName}</a>
+					</em>
+				</span>
+				{block:RebloggedFrom}
+					<br />
+					<span class="desc_notes">
+						<a href="{ReblogParentURL}" target="_blank" title="from {ReblogParentTitle}">reblogged</a>
+					</span>
+				{/block:RebloggedFrom}
+				{block:NoteCount}
+					<br />
+					<span class="desc_notes"><a href="{Permalink}">{NoteCountWithLabel}</a></span>
+				{/block:NoteCount}
+			</div>
+
+			{block:HasTags} <div class="tags">
+				{text:Tagged}<span class="tags_tag">
+					{block:Tags}<a href="{TagURL}">{Tag} &there4;</a>{/block:Tags}
+				</span>
+			</div>{/block:HasTags}
+		</article>
+		<!-- /Post Sidebar -->
+			
+		{block:Quote}<article class="post_single">
+			<div class="quote">
+				<div class="type_headline"><span class="black_back">quote</span></div>
+				<div class="quote_headline">{Quote}</div>
+				{block:Source}<caption class="quote_author">{Source}</caption>
+				{/block:Source}
+			</div>
+		</article>
+		{/block:Quote}
+
+		{block:Photo} <article class="post_single">
+			<div class="quote">
+			<div class="type_headline">
+				<span class="black_back">picture</span> {block:HighRes}<span class="pic_hd"><a href="{PhotoURL-HighRes}">HD</a></span>{/block:HighRes} </div>
+				<div class="picture_pic">{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>{LinkCloseTag}</div>
+				{block:Caption} <caption class="post_text">{Caption}</caption>
+				{/block:Caption}
+			</div>
+		</article>
+		{/block:Photo}
+
+		{block:Photoset} <article class="post_single">
+			<div class="quote">
+				<div class="type_headline">
+					<span class="black_back">photoset</span>
+				</div>
+				<div class="picture_pic">{Photoset-500}</div>
+				{block:Caption} <caption class="post_text">{Caption}</caption>
+				{/block:Caption}
+			</div>	
+		</article>
+		{/block:Photoset}
+
+		{block:Video} <article class="post_single">
+			<div class="quote">
+				<div class="type_headline">
+					<span class="black_back">video</span>
+				</div>
+				<div class="picture_pic">{Video-500}</div>
+				{block:Caption} <caption class="post_text">{Caption}</caption>
+				{/block:Caption}
+			</div>	
+		</article>
+		{/block:Video}
+
+		{block:Link} <article class="post_single">
+			<div class="quote">
+				<div class="type_headline"><span class="black_back">link</span></div>
+				<div class="headline_post"><a href="{URL}" {Target}>{Name}</a></div>
+				{block:Description}<caption class="post_text">{Description}</caption>
+				{/block:Description}
+			</div>	
+		</article>
+		{/block:Link}
+
+		{block:Text}<article class="post_single">
+			<div class="quote">
+				<div class="type_headline">
+					<span class="black_back">text</span>
+				</div>
+				{block:Title}<div class="headline_post">
+					<a href="{Permalink}" {Target}>{Title}</a>
+				</div> <br />
+				{/block:Title}
+				<div class="post_text">{Body}</div>
+			</div>
+		</article>
+		{/block:Text}
+
+		{block:Chat}<article class="post_single">
+			<div class="quote">
+				<div class="type_headline">
+					<span class="black_back">conversation</span>
+				</div>
+				{block:Title}<div class="headline_post">
+					<a href="{Permalink}">{Title}</a>
+				</div>{/block:Title}
+				<div class="chat"><br />
+					{block:Lines}
+						{block:Label}<span class="label">{Label}</span>{/block:Label}
+						<span class="post_text">{Line}</span><br />
+					{/block:Lines}
+				</div>
+			</div>
+		</article>
+		{/block:Chat}
+
+		{block:Audio} <article class="post_single">
+			<div class="quote">
+				<div class="type_headline">
+					<span class="black_back">audio</span>
+					{block:ExternalAudio}<span class="pic_hd">
+						<a href="{ExternalAudioURL}">file</a></span>
+					{/block:ExternalAudio}
+				</div>
+				<div class="quote_headline">{AudioPlayerBlack}</div>
+				{block:Caption} <caption class="post_text">{Caption}</caption>
+				{/block:Caption}
+			</div>
+		</article>
+		{/block:Audio}
+
+		{block:Date} <div class="date">
+			Posted on <a href="/day/{Year}/{MonthNumberWithZero}/{DayOfMonthWithZero}">{ShortMonth} {DayOfMonthWithZero}{DayOfMonthSuffix} at {24HourWithZero}:{Minutes} {AmPm} PST</a>
+		</div>
+		{/block:Date}
+	</section>
+	{/block:Posts}
+
+	{block:PostNotes} 
+		<div class="post_single_notes">
+			<ul class="notes_heading"><li>Notes</li></ul>
+			<div class="notes_block">{PostNotes}</div>
+		</div>
+	{/block:PostNotes}
+
+	
+
+	<footer>
+		<div class="footer_nav"><span class="footer_nav_text">
+		{block:PermalinkPagination} 
+			{block:PreviousPost}<a href="{PreviousPost}">Previous Post</a>  |  
+			{/block:PreviousPost} 
+			{block:NextPost}<a href="{NextPost}">Next Post</a>
+			{/block:NextPost}
+		 {/block:PermalinkPagination}
+		 {block:Pagination} 
+			 {block:PreviousPage}<a href="{PreviousPage}">Previous Page</a>
+			 {/block:PreviousPage}  |  
+			 {block:NextPage}<a href="{NextPage}">Next Page</a>
+			 {/block:NextPage}
+		 {/block:Pagination}
+		 {block:DayPagination}
+			 {block:PreviousDayPage}<a href="{PreviousDayPage}">< {ShortDayOfWeek}, {ShortMonth} {DayOfMonth}{DayOfMonthSuffix}</a>
+			 {/block:PreviousDayPage}  |  
+			 {block:NextDayPage}<a href="{NextDayPage}">{ShortDayOfWeek}, {ShortMonth} {DayOfMonth}{DayOfMonthSuffix} ></a>
+			 {/block:NextDayPage}
+		 {/block:DayPagination}</span>
+		 </div>
+
+		<div class="footer credit">
+			 <a name="search_thing"></a>
+			 <div class="type_headline">
+				  <a href="https://www.tumblr.com/theme/4950" target="_blank">
+						frosted glass
+				  </a> by 
+				  <a href="https://www.spaceperson.net" target="_blank">
+						spaceperson
+				  </a> <br />
+				  modded by <a href="http://imagineyouricon.tumblr.com">mod 2</a> <br />
+				  powered by <a href="https://www.tumblr.com">tumblr</a>
+		 	</div>
+		 </div>
+	</footer>
+
+	</main>
+  
+	</body>
+</html>
